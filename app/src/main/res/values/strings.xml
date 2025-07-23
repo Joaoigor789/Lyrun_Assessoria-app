@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lyrun</string>
+    <string name="bem_vindo_ao_lyrun">Bem-vindo ao Lyrun!</string>
+    <string name="agenda">Agenda</string>
+    <string name="treino">Treino</string>
+    <string name="cron_metro_intervalos">Cronômetro Intervalos</string>
+    <string name="tempo_descanso_segundos">Tempo descanso (segundos)</string>
+    <string name="tempo_corrida_segundos">Tempo corrida (segundos)</string>
+    <string name="direitos_autorais_do_aplicativo">© Direitos autorais do aplicativo</string>
+    <string name="pertence_a_lyrun_assessoria">🏃 Pertence a LyRun Assessoria</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="cone_de_corrida">Ícone de corrida</string>
+    <string name="doar_via_picpay">Doar via PicPay</string>
+    <string name="ainda_n_o_tem_conta_registre_se">Ainda não tem conta? Registre-se</string>
+    <string name="quer_doar_pra_o_criador_do_app_n_clique_no_picpay">Quer doar para o criador do app?\n(clique no picpay)</string>
+</resources>

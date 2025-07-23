@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_cronometro"
+
+        android:padding="24dp">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:id="@+id/edtTiros"
+                android:inputType="number"
+                android:hint="Número de tiros"
+                android:textColorHint="#EA80FC"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:minHeight="48dp"/>
+
+        <EditText
+                android:id="@+id/edtTempoTiro"
+                android:autofillHints="1minuto = 60"
+                android:inputType="number"
+                android:hint="@string/tempo_corrida_segundos"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:textColorHint="#EA80FC"
+                android:minHeight="48dp"/>
+
+        <EditText
+                android:id="@+id/edtTempoDescanso"
+                android:inputType="number"
+                android:hint="@string/tempo_descanso_segundos"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:textColorHint="#9FA8DA"
+                android:minHeight="48dp"/>
+
+        <Button
+                android:id="@+id/btnIniciar"
+                android:text="Iniciar Treino"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"/>
+
+        <TextView
+                android:id="@+id/txtFase"
+                android:text="Fase"
+                android:textSize="32sp"
+                android:textStyle="bold"
+
+                android:layout_marginBottom="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <TextView
+                android:id="@+id/txtTempo"
+                android:text="0s"
+                android:textSize="48sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

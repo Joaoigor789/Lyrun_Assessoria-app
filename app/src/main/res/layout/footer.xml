@@ -1,0 +1,115 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:elevation="8dp"
+        android:padding="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        android:backgroundTint="#FFFFFF"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_horizontal">
+
+    <!-- Linha com ícone LinkedIn + texto -->
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingBottom="12dp">
+
+        <ImageButton
+                android:id="@+id/btnLinkedin"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/linkedin"
+                android:src="@drawable/ic_linkedin"
+                app:tint="#0A66C2"
+                android:layout_marginEnd="10dp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Criador do app"
+                android:textSize="18sp"
+                android:textColor="#222222"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Ícone PicPay abaixo -->
+
+
+    <!-- Linha divisória fina -->
+    <ImageButton
+            android:id="@+id/btnPicpay"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/picpay"
+            android:contentDescription="@string/doar_via_picpay"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="centerInside"
+            android:layout_marginTop="-15dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="-47dp"
+            android:layout_marginEnd="16dp"
+            tools:ignore="TouchTargetSizeCheck"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quer_doar_pra_o_criador_do_app_n_clique_no_picpay"
+            android:textSize="10sp"
+            android:textColor="#222222"
+            android:layout_marginTop="-35dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="16dp"
+            android:textStyle="bold" />
+
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginBottom="12dp" />
+
+    <!-- Direitos autorais -->
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/direitos_autorais_do_aplicativo"
+            android:textColor="#777777"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.02" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pertence_a_lyrun_assessoria"
+            android:textColor="#777777"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.02" />
+
+    <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/icon_floter"
+            android:layout_marginTop="4dp"
+            android:contentDescription="@string/cone_de_corrida" />
+</LinearLayout>

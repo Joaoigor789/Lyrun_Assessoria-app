@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        package="com.lyrun.app">
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application
+            android:allowBackup="true"
+            android:dataExtractionRules="@xml/data_extraction_rules"
+            android:fullBackupContent="@xml/backup_rules"
+            android:icon="@mipmap/lyrun_launcher"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/Theme.Lyrun"
+            tools:targetApi="31">
+
+        <activity
+                android:name=".MainActivity"
+                android:exported="true"
+                android:label="@string/app_name"
+                android:theme="@style/Theme.Lyrun">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name="com.lyrun.app.LoginActivity"
+                android:exported="false"
+                android:label="Login"
+                android:theme="@style/Theme.Lyrun" />
+
+        <activity
+                android:name="com.lyrun.app.RegisterActivity"
+                android:exported="false"
+                android:label="Cadastro"
+                android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity
+                android:name="com.lyrun.app.classe_principal.HomeActivity"
+                android:exported="false"
+                android:label="Home"
+                android:theme="@style/Theme.Lyrun" />
+
+        <activity android:name="com.lyrun.app.AgendaActivity" android:exported="false" />
+        <activity android:name="com.lyrun.app.TreinoActivity" android:exported="false" />
+        <activity android:name="com.lyrun.cronograma.view.IntervalTimerActivity" />
+        <activity android:name="com.lyrun.app.DoacaoActivity" />
+
+
+
+
+
+    </application>
+
+</manifest>

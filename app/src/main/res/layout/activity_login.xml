@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:background="@drawable/lyrun"
+              android:padding="24dp">
+
+    <EditText
+            android:id="@+id/inputEmail"
+            android:hint="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:textColorHint="#263238"/>
+
+    <EditText
+            android:id="@+id/inputPassword"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:minHeight="48dp"
+            android:textColorHint="#263238"/>
+
+    <Button
+            android:id="@+id/btnLogin"
+            android:text="Entrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" />
+
+    <TextView
+            android:id="@+id/txtRegistrar"
+            android:text="@string/ainda_n_o_tem_conta_registre_se"
+            android:textColor="#212121"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+
+    <include
+            layout="@layout/footer"/>
+
+</LinearLayout>
